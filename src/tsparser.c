@@ -30,7 +30,7 @@ void parseTSPacket(TSParser *parser, ABitReader *bitReader)
     }
 
     payload_unit_start_indicator = getBits(bitReader, 1);
-    printf("Payload unit start indicator: %u\n", payload_unit_start_indicator);
+    printf("\nPayload unit start indicator: %u\n", payload_unit_start_indicator);
 
     transport_priority = getBits(bitReader, 1);
     printf("Transport Priority: %u\n", transport_priority);
