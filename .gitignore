@@ -2,3 +2,5 @@
 *.ts
 
 tsunpacker
+
+cmake-build/
